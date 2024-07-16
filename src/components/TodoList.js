@@ -1,7 +1,7 @@
 import React from "react";
 import {useState, useEffect} from "react";
 
-// Verbindung zu Todo.js Uaaahhhh ..... Hilfe!!!
+// Verbindung zu Todo.js Uaaahhhh ..... Hilfe!!! dgd g
 import Todo from "./Todo";
 
 // Array mit 2 Spalten und 3 Zeilen; wird überflüssig dur "Add Todo"
