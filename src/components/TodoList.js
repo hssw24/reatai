@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-// Verbindung zu Todo.js Uaaahhhh ..... Hilfe!!! dgd g
+// Verbindung zu Todo.js Uaaahhhh ..... Hilfe!!! Das ist eine blöde Fummelei ...
 import Todo from "./Todo";
 
 // Array mit 2 Spalten und 3 Zeilen; wird überflüssig dur "Add Todo"
@@ -68,20 +68,20 @@ const TodoList = () => {
   return (
     <div className="shadow-xl hover:shadow-lg">
       <div className="text-center bg-gray-500 text-white py-4 font-semibold">
-        <h1 className="text-3xl">Unsere Todos</h1>
-        <h2>offene Todos: {opencount}</h2>
+        <h1 className="text-3xl">Unsere Todos xxx</h1>
+        <h2>offene Todos xxx: {opencount}</h2>
         <form className="grid grid-cols-3 py-2">
           <input
             onChange={changeText}
             type="text"
             value={textinput}
-            placeholder="Neues Todo ..."
+            placeholder="Neues Todo ... xxx"
             className="col-span-2 p-2 text-gray-900">
           </input>
           <input
             onClick={submit}
             type="submit"
-            value="Add Todo"
+            value="Add Todo xxx"
             className="col-span-1 bg-yellow-500 text-gray-900 cursor-pointer">
           </input>
         </form>
