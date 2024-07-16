@@ -1,6 +1,6 @@
 import React from "react";
 
-// props nimmt 2 Parameter an
+// props nimmt 2 Parameter an - wer kann das versehen???
 // const Todo = (props) => {
 //    <h1>{props.description} == {props.done ? "Fertig!" : "Noch zu erledigen!"}</h1>
 
